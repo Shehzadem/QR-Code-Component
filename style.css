@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* this is where my code starts */
+html {
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body {
+  background-color: hsl(212, 46%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.panel {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-block: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.panel__img-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.panel__img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.panel__heading {
+  color: hsl(218, 44%, 22%);
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.panel__description {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
